@@ -1,0 +1,114 @@
+.supportsection {
+    background-color: #101010;
+  }
+  
+  .supportsectionheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .supportsectionheader > h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37.7415px;
+    line-height: 46px;
+    text-align: center;
+    color: #bbbbbb;
+  }
+  
+  .supportcustomercontainer {
+    display: flex;
+    padding: 30px 35px;
+    gap: 28rem;
+  }
+  
+  .supportcustomercontainerleft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+  }
+  
+  .supportverticleline {
+    border-left: 1px solid #343434;
+    height: 400px;
+  }
+
+.supportcustomercontainerright{
+  width:800px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.supportcustomertop{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.supportcustomertoplist{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1A1A1A;
+  border-radius: 15px;
+  height: 84px;
+  padding: 0px 15px;
+}
+
+.supportcustomertoplistleft{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.supportcustomertoplistleft > span{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+line-height: 29px;
+font-size: 24px;
+color: #989898;
+}
+
+.supportcustomertoplistright > span{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #989898;
+}
+
+.supportcustomerbottomlist{
+  background-color: #1A1A1A;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.supportcustomerbottomlistleft{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.supportcustomerbottomlistleft > span{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #989898;
+}
+
+.supportcustomerbottomlistright{
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,131 @@
+.logoutsection {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  margin-top: 40px;
+}
+
+.logoutsectiontop {
+}
+
+.logoutsectiontopnotification {
+  border: 0.566066px solid #cb9200;
+  border-radius: 5.66066px;
+  padding: 10px 30px;
+}
+
+.logoutsectiontopnotification > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21.3642px;
+  line-height: 26px;
+  color: #bbbbbb;
+}
+
+.logoutsectionmid {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.logoutsectionmidheader > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26.794px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-left: 25px;
+}
+
+.logoutsectionmidform {
+  /* background-color: #CB9200; */
+}
+
+.logoutsectionmidform > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.logoutsectionmidformitems {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #161616;
+  padding: 0px 30px;
+  border-radius: 10px;
+  width: 730px;
+  height: 83px;
+}
+
+.logoutsectionmidformitems > input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24.5612px;
+  line-height: 30px;
+  color: #696969;
+  background: #161616;
+  width: 100%;
+}
+
+.logoutsectionmidformbtn {
+  background: #cb9200;
+  border-radius: 10px;
+  width: 780px;
+  padding: 20px 0px;
+  cursor: pointer;
+}
+
+.logoutsectionmidformbtn > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 25px;
+  color: #101010;
+}
+
+.logoutsectionbottom {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.logoutsectionbotheader {
+}
+
+.logoutsectionbotheader > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26.794px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-left: 25px;
+}
+
+.logoutsectionbotbtn {
+  border-radius: 10px;
+  width: 780px;
+  padding: 10px 0px;
+  cursor: pointer;
+  background: #101010;
+border: 1.5px solid #CB9200;
+
+}
+
+.logoutsectionbotbtn > span{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 25px;
+color: #CB9200;
+}

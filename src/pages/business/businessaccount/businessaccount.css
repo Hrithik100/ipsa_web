@@ -1,0 +1,47 @@
+.businessaccountsection{
+    background-color: #101010;
+  }
+  
+  .businessaccountsectionheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .businessaccountsectionheader > h2 {
+    font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 37.7415px;
+  line-height: 46px;
+  text-align: center;
+  color: #BBBBBB;
+  }
+  
+  .businessaccountcustomercontainer {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 30px 35px;
+    gap: 90px;
+    position: relative;
+    bottom: 3.1rem;
+    /* background-color: #d9d9d9;
+    border-radius: 15px; */
+  }
+  
+  .businessaccountcontainerleft{
+    /* background-color: blue; */
+    /* margin-top: 50px; */
+  }
+  
+  .verticlelinebusinessaccount{
+    border-left: 1px solid #343434;
+    height: 400px;
+    margin-right: 5rem;
+  }
+  
+  .businessaccountcontaierright{
+     
+  }

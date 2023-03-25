@@ -1,0 +1,45 @@
+.businessphotossection {
+  background-color: #101010;
+}
+
+.businessphotosheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.businessphotosheader > h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 37.7415px;
+  line-height: 46px;
+  text-align: center;
+  color: #bbbbbb;
+}
+
+.businessphotoscontainer {
+  display: flex;
+  padding: 30px 35px;
+  gap: 18rem;
+}
+
+.businessphotoscontainerleft {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 90px;
+  position: relative;
+  bottom: 4.5rem;
+  /* background-color: aqua; */
+}
+
+.businessphotosverticleline {
+  border-left: 1px solid #343434;
+  height: 400px;
+}
+
+.busisnessphotoscontainerright {
+  /* background-color: rgb(169, 87, 87); */
+}

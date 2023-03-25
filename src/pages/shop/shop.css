@@ -1,0 +1,197 @@
+.shopsection {
+  background-color: #101010;
+}
+
+.shopsectionresult {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 210px;
+}
+
+.shopsectionresultleft > h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 41.9354px;
+  line-height: 51px;
+  color: #989898;
+  text-shadow: 0px 8.16px 8.16px rgba(0, 0, 0, 0.25);
+}
+
+.shopsectionresultright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.shopsectionfilterleftitem,
+.shopsectionfilterrightitem {
+  background-color: #101010;
+  border: 1.5px solid #cb9200;
+  border-radius: 10px;
+  height: 59px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.shopsectionfilterleftitem > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 25px;
+  color: #cb9200;
+  padding: 20px;
+}
+
+.shopsectionfilterrightitem > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 25px;
+  color: #cb9200;
+  padding: 20px;
+}
+
+.shopitems {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  padding: 0px 196px;
+}
+
+.shopitem {
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  width: 300px;
+}
+
+.shopitemimage {
+  width: 300px;
+  height: 265px;
+  border-radius: 15px;
+  background-color: #242424;
+}
+
+.shopitemimage > span{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 41.9354px;
+line-height: 51px;
+display: flex;
+justify-content: center;
+position: relative;
+top: 6rem;
+color: #989898;
+
+}
+
+.shopstatus {
+  background-color: #1f1f1f;
+  border-radius: 6px;
+  width: 92px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 12rem;
+  top: 1rem;
+}
+
+.shopstatus > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #666666;
+}
+
+.shopdetails {
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.shopdetailstop {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.shopname > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #989898;
+}
+
+.shopdetailsbottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shopdetaillocation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: #949494;
+}
+
+.shopdetaillocation > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.shopdetailrating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #cb9200;
+}
+
+.shopdetailrating > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.bookbtn {
+  background: #cb9200;
+  border-radius: 15px;
+  border: none;
+  width: 100%;
+  padding: 10px;
+}
+
+.bookbtn > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #101010;
+}

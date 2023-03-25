@@ -1,0 +1,53 @@
+.myaccountsection {
+  background-color: #101010;
+}
+
+.myaccountsectionheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.myaccountsectionheader > h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 37.7415px;
+  line-height: 46px;
+  text-align: center;
+  color: #bbbbbb;
+}
+
+.myaccountcustomercontainer {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 30px 35px;
+  gap: 5.65rem;
+  /* background-color: #d9d9d9;
+  border-radius: 15px; */
+  /* background-color: aqua; */
+}
+
+.myaccoutcustomercontainerleft {
+  /* background-color: blue; */
+  position: relative;
+  bottom: 2.3rem;
+  /* margin-top: 50px; */
+}
+
+.verticleline {
+  border-left: 1px solid #343434;
+  height: 400px;
+  margin-right: 5rem;
+  position: relative;
+  bottom: 2.3rem;
+}
+
+.myaccountcustomercontaierright {
+  /* margin-right: 10rem;
+  background: #1A1A1A;
+border-radius: 9.23784px;
+width: 800px; */
+}

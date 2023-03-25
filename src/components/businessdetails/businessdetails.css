@@ -1,0 +1,73 @@
+.businessdetailssection {
+  background-color: #101010;
+}
+
+.detailsformbusiness {
+ 
+}
+
+.detailsformbusiness > form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 90px;
+  width: 800px;
+}
+
+.businessdetailitems {
+  background: #1a1a1a;
+  border-radius: 9.23784px;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.phonenumber{
+    display: flex;
+    gap: 30px;
+}
+
+.businessdetailitems > label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23.6549px;
+  line-height: 29px;
+  text-align: center;
+  color: #989898;
+}
+
+/* .phonecode {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 23.6549px;
+line-height: 29px;
+color: #989898;
+background-color: #c82e2e;
+}
+
+.phonecode > input{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.6549px;
+    line-height: 29px;
+    color: #989898; 
+    background-color: #1A1A1A ;
+} */
+
+.businessdetailitems > input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23.6549px;
+  line-height: 29px;
+  color: #989898;
+  background-color: #1a1a1a;
+  width: 95%;
+}

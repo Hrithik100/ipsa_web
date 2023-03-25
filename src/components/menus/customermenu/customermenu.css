@@ -1,0 +1,30 @@
+.menucustomercontainer{
+    /* background-color: aqua; */
+}
+
+.menucustomer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    
+}
+.menucustomeritems{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 10px 0px;
+}
+
+.linkmenu{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.1283px;
+    line-height: 27px;
+    color: #989898;
+}
+
+.active {
+    color: #CB9200;
+}

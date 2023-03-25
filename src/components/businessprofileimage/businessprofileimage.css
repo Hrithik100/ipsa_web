@@ -1,0 +1,55 @@
+.profilepicpagesection {
+}
+
+.uploadprofilepage {
+  position: relative;
+}
+
+.uploadbtnprofile {
+  position: absolute;
+}
+.uploadbtnprofile > button {
+  position: relative;
+  left: 3.5rem;
+  top: 9rem;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background: #2e2e2e;
+  border: 1px solid #444444;
+  border-radius: 8.50829px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.1263px;
+  line-height: 24px;
+  color: #838383;
+}
+
+.profileimageitem > img {
+  width: 220px;
+  height: 220px;
+  border-radius: 5px;
+}
+
+.profileimgbtn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #101010;
+}
+
+.profileimgbtn > button {
+  padding: 10px;
+  align-items: center;
+  background: #2e2e2e;
+  border: 1px solid #444444;
+  border-radius: 8.50829px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #838383;
+}

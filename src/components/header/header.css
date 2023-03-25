@@ -1,0 +1,45 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 35px;
+  background-color: #101010;
+}
+
+.headerleft {
+  display: flex;
+  align-items: center;
+}
+
+.headerright {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.businesscustomerbtn{
+  cursor: pointer;
+}
+
+.businesscustomer {
+  background-color: #101010;
+border: 1.34709px solid #CB9200;
+border-radius: 8.98058px;
+cursor: pointer;
+}
+
+.businesscustomer > span {
+  display: flex;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px; 
+  color: #CB9200;
+  padding: 20px;
+}
+
+.menubutton {
+  color: #989898;
+  cursor: pointer;
+}

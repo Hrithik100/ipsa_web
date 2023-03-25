@@ -1,0 +1,84 @@
+/* .businessregistersection {
+    background-color: #101010;
+  }
+  
+  .businessregisterectionheader {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .businessregistersectionheader > h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40.8553px;
+    line-height: 49px;
+    text-align: center;
+    color: #bbbbbb;
+    margin-bottom: -5px;
+  }
+
+.registrationformbusiness{
+    margin: 30px 310px;
+}
+
+.registrationformbusiness > form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 90px;
+    width: 917.32px;
+}
+
+.businessformitems {
+    background: #1A1A1A;
+    border-radius: 9.23784px;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.businessformitems > label {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 23.6549px;
+line-height: 29px;
+text-align: center;
+color: #989898;
+}
+
+.businessformitems > input{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 23.6549px;
+line-height: 29px;
+color: #989898; 
+background-color: #1A1A1A ;
+width: 95%;
+}
+
+.businesssubmitbtn{
+    margin: 20px 350px;
+    width: 206px;
+height: 59px;
+display: flex;
+justify-content: center;
+align-items: center;
+    background: #CB9200;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.businesssubmitbtn > span{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 25px;
+color: #101010;
+}
+   */

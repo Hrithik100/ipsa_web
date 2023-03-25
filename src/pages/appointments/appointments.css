@@ -1,0 +1,38 @@
+.appointmentssection {
+  background-color: #101010;
+}
+
+.appointmentssectionheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.appointmentssectionheader > h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 37.7415px;
+  line-height: 46px;
+  text-align: center;
+  color: #bbbbbb;
+}
+
+.appointmentscustomercontainer {
+  display: flex;
+  padding: 30px 35px;
+  gap: 28rem;
+}
+
+.appointmentscustomercontainerleft {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 90px;
+}
+
+.appointmentsverticleline {
+  border-left: 1px solid #343434;
+  height: 400px;
+}

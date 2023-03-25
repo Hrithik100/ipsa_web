@@ -1,0 +1,100 @@
+.businesshomesection {
+  background-color: #101010;
+}
+
+.businesshomesectionheader {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.businesshomesectionheader > h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40.8553px;
+  line-height: 49px;
+  text-align: center;
+  color: #bbbbbb;
+  margin-bottom: -5px;
+}
+
+.businesshomesectionheader > h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #989898;
+}
+
+.businesshomesectiongrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  padding: 15px 420px;
+}
+
+.businesshomesectiongriditem {
+  width: 370px;
+  height: 153px;
+  background-color: #1a1a1a;
+  border-radius: 15px;
+}
+
+.businessregisterbtn {
+  margin: 20px 745px;
+  width: 206px;
+  height: 59px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #cb9200;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.businessregisterbtn > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 25px;
+  color: #101010;
+}
+
+.businesshomesectiongriditem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 5px 20px;
+}
+
+.businesshomesectiongriditemleft {
+  color: #cb9200;
+  display: flex;
+}
+
+.businesshomesectiongriditemright {
+  color: #ffffff;
+  position: relative;
+  bottom: 10px;
+}
+
+.businesshomesectiongriditemright > h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 15px;
+}
+
+.businesshomesectiongriditemright > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}

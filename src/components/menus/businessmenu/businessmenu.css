@@ -1,0 +1,31 @@
+.menubusinesscontainer{
+
+}
+
+.menubusiness{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 267px;
+   
+    
+}
+.menubusinessitems{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 15px 0px;
+}
+
+.linkmenu{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.1283px;
+    line-height: 27px;
+    color: #989898;
+}
+
+.active {
+    color: #CB9200;
+}
