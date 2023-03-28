@@ -1,0 +1,13 @@
+.storefrontsection{
+    position: relative;
+    overflow: hidden;
+}
+
+.storefrontsection iframe{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    align-self: center;
+    height: 533px !important;
+    width: 100%;
+}

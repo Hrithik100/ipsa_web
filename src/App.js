@@ -13,6 +13,7 @@ import MyAccount from "./pages/myaccount/MyAccount";
 import Notifications from "./pages/notifications/Notifications";
 import Shop from "./pages/shop/Shop";
 import Support from "./pages/support/Support";
+import Storefront from "./pages/storefront/Storefront";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <Route path="/businesshome/appointments" element={<BusinessAppointments/>}/>
       <Route path="/businesshome/notifications" element={<BusinessNotifications/>}/>
       <Route path="/businesshome/support" element={<BusinessSupport/>}/>
+      <Route path="/storefront" element={<Storefront/>}/>
     </Routes>
     </BrowserRouter>
   );
